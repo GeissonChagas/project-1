@@ -38,11 +38,13 @@
         display: flex;
         justify-content: space-around;
         background: #f4f4f4;
+        height: 100vh;
     }
 
-    .image{
-
+    img {
+        height: 100vh;
     }
+
 
     .login{
         display: flex;
