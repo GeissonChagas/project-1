@@ -1,15 +1,12 @@
 <template>
-  <LoginComponent />
   <router-view/>
 </template>
 
 <script>
 
-import LoginComponent from "./views/LoginComponent.vue";
-
 export default {
   components: {
-    LoginComponent,
+
   }
 }
 

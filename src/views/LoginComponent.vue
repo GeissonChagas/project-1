@@ -21,10 +21,11 @@
                 <a href="#">Esqueceu a senha?</a>
             </div>
             <div class="cadastro">
-                <p>Ainda não é cadastrado? crie seu cadastro clicando <a href="#">aqui.</a></p>
+                <p>Ainda não é cadastrado? crie seu cadastro clicando <router-link to="/cadastro">aqui.</router-link></p>
             </div>
         </div>
     </div>
+    
 </template>
 
 <script>
@@ -44,7 +45,6 @@
     img {
         height: 100vh;
     }
-
 
     .login{
         display: flex;

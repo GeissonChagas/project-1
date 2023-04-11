@@ -1,10 +1,15 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import CadastroComponent from '../views/CadastroComponent.vue'
+import { createRouter, createWebHashHistory } from 'vue-router';
 
 const routes = [
   {
+    path: '/',
+    name: 'login-component',
+    component: () => import('../views/LoginComponent.vue')
+  },
+  {
     path: '/cadastro',
-    component: CadastroComponent
+    name:'cadastro-component',
+    component: () => import('../views/CadastroComponent.vue')
   }
 ]
 
