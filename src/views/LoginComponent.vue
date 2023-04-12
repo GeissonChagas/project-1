@@ -58,6 +58,7 @@
         width: 80%;
         height: 24px;
         border: 1px solid #a0a0a0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     }
 
     label{
@@ -75,10 +76,10 @@
         border: none;
         cursor: pointer;
         margin: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     .button:hover {
-        /* Estilos para quando o cursor passa por cima do botão */
         background-color: #00b336;
     }
 
