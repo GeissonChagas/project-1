@@ -18,7 +18,7 @@
                 <button class="button">Entrar</button>
             </div>
             <div class="redefinir">
-                <a href="#">Esqueceu a senha?</a>
+                <router-link to="/redefinir-senha">Esqueceu a senha?</router-link>
             </div>
             <div class="cadastro">
                 <p>Ainda não é cadastrado? crie seu cadastro clicando <router-link to="/cadastro">aqui.</router-link></p>

@@ -10,6 +10,11 @@ const routes = [
     path: '/cadastro',
     name:'cadastro-component',
     component: () => import('../views/CadastroComponent.vue')
+  },
+  {
+    path: '/redefinir-senha',
+    name:'redefinir-senha',
+    component: () => import('../views/RedefinirSenha.vue')
   }
 ]
 
