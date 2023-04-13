@@ -15,6 +15,11 @@ const routes = [
     path: '/redefinir-senha',
     name:'redefinir-senha',
     component: () => import('../views/RedefinirSenha.vue')
+  },
+  {
+    path: '/app',
+    name:'app',
+    component: () => import('../views/AppPrincipal.vue')
   }
 ]
 

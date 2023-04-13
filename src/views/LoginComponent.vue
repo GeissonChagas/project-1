@@ -15,7 +15,7 @@
                 <input type="password">
             </div>
             <div>
-                <button class="button">Entrar</button>
+                <button class="button"><router-link to="/app" class="link">Entrar</router-link></button>
             </div>
             <div class="redefinir">
                 <router-link to="/redefinir-senha">Esqueceu a senha?</router-link>
@@ -34,7 +34,7 @@
     }
 </script>
 
-<style scoped>
+<style>
     .container{
         display: flex;
         justify-content: space-around;
@@ -66,7 +66,8 @@
     }
 
     .button {
-        padding: 12px 50px;
+        width: 180px;
+        height: 50px;
         font-size: 16px;
         font-weight: 600;
         text-align: center;
@@ -85,5 +86,10 @@
 
     a{
         text-decoration: none;
+    }
+
+    .link{
+        text-decoration: none;
+        color: #fff;
     }
 </style>
