@@ -1,6 +1,9 @@
 <template>
     <div class="container">
         <form class="box">
+            <div>
+                <img src="../../public/img/LOGO1.png" alt="logo" class="logo">
+            </div>
             <label for="nome">Nome</label>
             <input type="text" v-model="nome">
             <label for="email">E-mail</label>
@@ -26,6 +29,13 @@ export default{
 
 <style>
 
+    .logo{
+        margin: 50px 0;
+        width: 200px;
+        height: 150px;
+        box-shadow: 0 0 40px rgba(0,0,0, 0.5);
+    }
+
     .container{
         height: 100vh;
         display: flex;
@@ -41,7 +51,7 @@ export default{
         justify-content: center;
         margin: auto;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-        height: 60vh;
+        height: 90vh;
     }
 
     .box input{
