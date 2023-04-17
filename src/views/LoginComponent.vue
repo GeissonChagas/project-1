@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <div class="image">
-            <img src="../../public/img/zapprostor.jpg" alt="">
+        <div>
+            <img class="image" src="../../public/img/zapprostor.jpg" alt="">
         </div>
         <div class="login">
             <div class="title">
@@ -42,8 +42,9 @@
         height: 100vh;
     }
 
-    img {
+    .image {
         height: 100vh;
+        width: 35vw;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
     }
 
